@@ -5,10 +5,10 @@
     "cargo": "Presidente de la República",
     "discursos": [
       {
-        "dicho": "La Cruzada Nacional Contra el Hambre ha demostrado ser una estrategia efectiva para combatir la pobreza extrema y el hambre. Así lo confirma el Coneval en su Informe de Resultados Intermedios de la Cruzada Nacional Contra el Hambre",
-        "fuente": "Tercer Informe de Gobierno",
-        "fecha": "2 de septiembre de 2015",
-        "hecho": "El reporte que cita el Presidente no es tan optimista. Mientras que el estudio exploratorio de impacto de la Cruzada sí indica un efecto en reducir la pobreza extrema, no hay evidencia que se reduce la carencia de alimentación (hambre)."
+        "dicho": "The National Crusade Against Hunger has proven to be an effective strategy to combat extreme poverty and hunger. CONEVAL confirmed so in its Intermediate Results of the National Crusade Against Hunger report.",
+        "fuente": "Third State of the State Address",
+        "fecha": "2nd September 2015",
+        "hecho": "The report cited by the President is not so optimist. While the exploratory impact study of the Crusade indicates an effect in reducing extreme poverty, there is no evidence that it has any effect in reducing malnourishment (hunger)."
       }
     ]
   },
@@ -17,10 +17,10 @@
     "cargo": "ex-Secretaria de Desarrollo Social",
     "discursos": [
       {
-        "dicho": " si se trata de una Cruzada contra el hambre y 100 por ciento de esa población tenía carencia alimentaria, hoy es el 42 por ciento de esa población. Disminuimos esa carencia en 57.5 por ciento.",
-        "fuente": "Fórmula Financiera",
-        "fecha": "17 de Agosto del 2015",
-        "hecho": "Entre el 2012 y 2014 la población en pobreza extrema con carencia de alimentación, que es la que atiende la Cruzada, aumentó en 132 mil personas de acuerdo a CONEVAL."
+        "dicho": "If we are talking about a Crusade against hunger and a 100% of that population is malnourished, today only 42% of that population is malnourished. We diminished that problem in 57.5%.",
+        "fuente": "“Fórmula Financiera” radio interview",
+        "fecha": "17th August 2015",
+        "hecho": "Between 2012 and 2014, the population in extreme poverty that also is malnourished, which is the target population of the Crusade, increased in over 132,000 people according to CONEVAL."
       }
     ]
   },
@@ -29,10 +29,10 @@
     "cargo": "actual Secretario de Desarrollo Social",
     "discursos": [
       {
-        "dicho": "es cierto que la pobreza extrema se ha abatido, pero es también cierto que la pobreza moderada se ha incrementado.",
-        "fuente": "Segunda Reunión Plenaria del Grupo Parlamentario del PRI y PVEM de la LXIII Legislatura de la Cámara de Diputados",
-        "fecha": "30 de enero de 2016",
-        "hecho": "Los últimos datos de CONEVAL indican que la pobreza extrema no se ha abatido, en 2014 había todavía más de 11 millones personas en dicha condición "
+        "dicho": "its true that extreme poverty has been eradicated, but it is also true that moderate poverty has increased.",
+        "fuente": "Second Plenary Meeting of the PRI and PVEM political parties Parlamentary Group of the LXIII Lower Chamber of Congress",
+        "fecha": "30th January 2016",
+        "hecho": "The lastest data from CONEVAL indicates that extreme poverty has not been eradicated, in 2014 there were still 11 million people living in such condition."
       }
     ]
   },

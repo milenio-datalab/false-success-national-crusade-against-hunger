@@ -52,7 +52,7 @@ var Vis = (function () {
                 personaje.discursos.forEach(function (d) {
                     var dicho = contenedor_discursos.append('div')
                         .attr('class', 'dicho');
-                    dicho.append('h6').html('Discurso');
+                    dicho.append('h6').html('Speech');
                     dicho.append('p').html('"' + d.dicho + '"');
                     dicho.append('p')
                         .attr('class', 'fecha-fuente')
@@ -60,7 +60,7 @@ var Vis = (function () {
 
                     var hecho = contenedor_discursos.append('div')
                         .attr('class', 'hecho');
-                    hecho.append('h6').html('Realidad');
+                    hecho.append('h6').html('Fact');
                     hecho.append('p').html(d.hecho);
                 });
 

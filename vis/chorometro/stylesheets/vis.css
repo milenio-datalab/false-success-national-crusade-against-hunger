@@ -91,7 +91,6 @@ div#discurso {
   padding: 15px; }
   div#discurso div {
     padding: 10px 15px;
-    margin-bottom: 5px;
     font-size: 16px; }
     div#discurso div h6 {
       margin: 0 0 5px 0;
@@ -102,19 +101,18 @@ div#discurso {
       margin: 5px 0;
       padding: 0 15px; }
   div#discurso div.dicho {
-    background-color: #6F6F6F;
+    background-color: #444;
     color: #fff;
-    border-radius: 10px;
     font-size: 14px; }
     div#discurso div.dicho p.fecha-fuente {
-      color: #bbb;
+      color: #ccc;
       font-weight: 300;
       font-size: 0.8em;
       margin-top: 15px; }
   div#discurso div.hecho {
-    margin-bottom: 15px;
-    border: 3px solid #6F6F6F;
-    color: #6F6F6F;
+    margin-bottom: 25px;
+    border: 2px solid #444;
+    color: #333;
     font-size: 14px; }
 
 /*# sourceMappingURL=vis.css.map */
