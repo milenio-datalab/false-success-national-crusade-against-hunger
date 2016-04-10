@@ -55,7 +55,7 @@ body {
   font-family: "Tiempos Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71; }
+  color: #333; }
 
 a {
   color: #1e6bb8;
@@ -107,7 +107,7 @@ a {
   background-color: #D62927;
   background-image: linear-gradient(120deg, #D62927, #702221); }
 
-.page-header h1 {
+.page-header h1, h2, h3 {
     font-family: "Tiempos Headline", serif;
 }
 
@@ -163,8 +163,8 @@ a {
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
   margin-top: 2rem;
   margin-bottom: 1rem;
-  font-weight: normal;
-  color: #D62927; }
+  font-weight: 700;
+  color: #000; }
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
@@ -260,7 +260,7 @@ a {
     max-width: 64rem;
     padding: 2rem 6rem;
     margin: 0 auto;
-    font-size: 1.1rem; } }
+    font-size: 19px; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .main-content {
