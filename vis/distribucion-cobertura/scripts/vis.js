@@ -308,7 +308,7 @@ var Vis = (function () {
             .attr('x', 15)
             .attr('y', 8)
             .style('font-size', 10)
-            .text('Cobertura según SEDESOL de la población en situación de Pobreza Extrema con Carencia Alimentaria');
+            .text('Coverage with programs for people who suffer from extreme poverty and malnourisment');
 
         scale.forEach(function (d, i) {
             _g_scale.append('rect')
@@ -352,7 +352,7 @@ var Vis = (function () {
             .attr('x', 15 + ancho_boton / 2)
             .attr('y', alto_boton / 2)
             .style('dominant-baseline', 'central')
-            .text('Todos los programas');
+            .text('All programs');
 
         _g_ui.append('rect')
             .attr('x', 15 * 2 + ancho_boton)
@@ -370,7 +370,7 @@ var Vis = (function () {
             .attr('x', 15 * 2 + ancho_boton + ancho_boton / 2)
             .attr('y', alto_boton / 2)
             .style('dominant-baseline', 'central')
-            .text('Solo programas combate al hambre');
+            .text('Only programs that combat hunger');
     };
 
     var tooltipOffset = {x: 5, y: -32};
@@ -459,7 +459,7 @@ var Vis = (function () {
             'Veracruz',
             'Yucatán',
             'Zacatecas',
-            'Todo el país'
+            'All the country'
         ];
         return entidades[parseInt(i - 1)];
     };
