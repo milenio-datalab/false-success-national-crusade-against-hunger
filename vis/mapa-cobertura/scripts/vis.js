@@ -198,14 +198,14 @@ var Vis = (function () {
         var ancho_boton = (_width - _padding * 7) / 6;
         var alto_boton = 30;
 
-        _draw_button(_padding, 0, ancho_boton, alto_boton, '0 a 20%', '0-20');
-        _draw_button(ancho_boton + _padding * 2, 0, ancho_boton, alto_boton, '20 a 40%', '20-40');
-        _draw_button(ancho_boton * 2 + _padding * 3, 0, ancho_boton, alto_boton, '40 a 60%', '40-60');
-        _draw_button(ancho_boton * 3 + _padding * 4, 0, ancho_boton, alto_boton, '60 a 80%', '60-80');
-        _draw_button(ancho_boton * 4 + _padding * 5, 0, ancho_boton, alto_boton, '80 a 100%', '80-100');
-        _draw_button(ancho_boton * 5 + _padding * 6, 0, ancho_boton, alto_boton, '+ de 100%', 'mas-100');
+        _draw_button(_padding, 0, ancho_boton, alto_boton, '0 to 20%', '0-20');
+        _draw_button(ancho_boton + _padding * 2, 0, ancho_boton, alto_boton, '20 to 40%', '20-40');
+        _draw_button(ancho_boton * 2 + _padding * 3, 0, ancho_boton, alto_boton, '40 to 60%', '40-60');
+        _draw_button(ancho_boton * 3 + _padding * 4, 0, ancho_boton, alto_boton, '60 to 80%', '60-80');
+        _draw_button(ancho_boton * 4 + _padding * 5, 0, ancho_boton, alto_boton, '80 to 100%', '80-100');
+        _draw_button(ancho_boton * 5 + _padding * 6, 0, ancho_boton, alto_boton, '+ 100%', 'mas-100');
 
-        _draw_button(ancho_boton * 4 + _padding * 5, alto_boton + _padding / 2, ancho_boton * 2 + _padding, alto_boton, 'Centrar mapa', null);
+        _draw_button(ancho_boton * 4 + _padding * 5, alto_boton + _padding / 2, ancho_boton * 2 + _padding, alto_boton, 'Center map', null);
         _draw_button_todos();
     };
 
@@ -261,7 +261,7 @@ var Vis = (function () {
             .attr('x', _padding / 2 + ancho_boton)
             .attr('y', alto_boton + _padding / 2 + alto_boton / 2)
             .style('dominant-baseline', 'central')
-            .text('Todos');
+            .text('All');
 
         _ui_g.append('rect')
             .attr('x', _padding * 3 + ancho_boton * 2)
@@ -282,7 +282,7 @@ var Vis = (function () {
             .attr('x', _padding * 3 + _padding / 2 + ancho_boton * 3)
             .attr('y', alto_boton + _padding / 2 + alto_boton / 2)
             .style('dominant-baseline', 'central')
-            .text('Ninguno');
+            .text('None');
     };
 
     var _centrar_mapa = function () {
