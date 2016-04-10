@@ -105,7 +105,7 @@ a {
   color: #fff;
   text-align: center;
   background-color: #D62927;
-  background-image: linear-gradient(120deg, #D62927, #702221); }
+  background-image: linear-gradient(120deg, #D62927, #333); }
 
 .page-header h1, h2, h3 {
     font-family: "Tiempos Headline", serif;
