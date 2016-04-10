@@ -1,0 +1,82 @@
+@import "mdl"
+
+body
+  font-family: 'Titillium Web', sans-serif
+  font-size: 16px
+  font-weight: 400
+  padding: 0 !important
+  margin: 0 !important
+
+div#vis-distribucion-pobreza
+  max-width: 478px
+
+text
+  fill: #333
+
+g#g-ui
+
+  rect.ui-button
+    fill: #333333
+
+    &:hover
+      cursor: pointer
+      fill: $color_gris_azul
+    &.selected
+      fill: $color_rojo_milenio
+
+  text.ui-button
+    text-anchor: middle
+    pointer-events: none
+    fill: #fff
+
+#g-bars
+  text.bar-text
+    fill: #333
+
+  text.bar-rect-text
+    fill: #fff
+
+  rect.bar-rect
+    filter: drop-shadow(0px 1px 1px #555)
+    -webkit-svg-shadow: 1px 1px 2px #555
+    &.pobreza-extrema
+      fill: $color_rojo
+    &.pobreza-moderada
+      fill: $color_amarillo_obscuro
+    &.sin-pobreza
+      fill: $color_verde
+    &.fondo
+      fill: $color_gris_claro
+
+  text.pobreza-extrema-leyenda
+    fill: $color_rojo
+  text.pobreza-moderada-leyenda
+    fill: $color_amarillo_obscuro
+
+g#g-squares
+  rect
+    fill-opacity: 1
+    filter: drop-shadow(0px 1px 2px #333)
+    -webkit-svg-shadow: 1px 1px 3px #333
+  rect.carencia-alimentaria
+    fill: $color_azul
+  rect.pobreza-extrema
+    fill: $color_rojo
+  rect.pobreza-extrema-ca
+    fill: $color_morado
+    filter: drop-shadow(0px 0px 0px #555)
+    -webkit-svg-shadow: 0px 0px 0px #555
+    stroke: #fff
+    stroke-width: 0.5px
+  text
+    transition: opacity 0.2s
+    cursor: default
+  text.carencia-alimentaria
+    fill: $color_azul
+  text.pobreza-extrema
+    fill: $color_rojo
+  text.pobreza-extrema-ca
+    fill: $color_morado
+  text.transparent, rect.transparent
+    opacity: 0.3
+    transition: opacity 0.2s

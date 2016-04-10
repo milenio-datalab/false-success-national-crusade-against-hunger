@@ -1,0 +1,75 @@
+ 
+[
+  {
+    "personaje": "Enrique Peña Nieto",
+    "cargo": "Presidente de la República",
+    "discursos": [
+      {
+        "dicho": "La Cruzada Nacional Contra el Hambre ha demostrado ser una estrategia efectiva para combatir la pobreza extrema y el hambre. Así lo confirma el Coneval en su Informe de Resultados Intermedios de la Cruzada Nacional Contra el Hambre",
+        "fuente": "Tercer Informe de Gobierno",
+        "fecha": "2 de septiembre de 2015",
+        "hecho": "El reporte que cita el Presidente no es tan optimista. Mientras que el estudio exploratorio de impacto de la Cruzada sí indica un efecto en reducir la pobreza extrema, no hay evidencia que se reduce la carencia de alimentación (hambre)."
+      }
+    ]
+  },
+  {
+    "personaje": "Rosario Robles",
+    "cargo": "ex-Secretaria de Desarrollo Social",
+    "discursos": [
+      {
+        "dicho": " si se trata de una Cruzada contra el hambre y 100 por ciento de esa población tenía carencia alimentaria, hoy es el 42 por ciento de esa población. Disminuimos esa carencia en 57.5 por ciento.",
+        "fuente": "Fórmula Financiera",
+        "fecha": "17 de Agosto del 2015",
+        "hecho": "Entre el 2012 y 2014 la población en pobreza extrema con carencia de alimentación, que es la que atiende la Cruzada, aumentó en 132 mil personas de acuerdo a CONEVAL."
+      }
+    ]
+  },
+  {
+    "personaje": "José Antonio Meade",
+    "cargo": "actual Secretario de Desarrollo Social",
+    "discursos": [
+      {
+        "dicho": "es cierto que la pobreza extrema se ha abatido, pero es también cierto que la pobreza moderada se ha incrementado.",
+        "fuente": "Segunda Reunión Plenaria del Grupo Parlamentario del PRI y PVEM de la LXIII Legislatura de la Cámara de Diputados",
+        "fecha": "30 de enero de 2016",
+        "hecho": "Los últimos datos de CONEVAL indican que la pobreza extrema no se ha abatido, en 2014 había todavía más de 11 millones personas en dicha condición "
+      }
+    ]
+  },
+  {
+    "personaje": "Web de la Cruzada Nacional Contra el Hambre",
+    "cargo": "",
+    "discursos": [
+      {
+        "dicho": "4,177,563 beneficiarios del Programa de Apoyo Alimentario",
+        "fuente": "Sección de Mapa",
+        "fecha": "",
+        "hecho": "El padrón de beneficiarios indica que tan sólo 1,153,787 personas son beneficiarias del Programa de Apoyo Alimentario. La cifra que se reporta es 3.6 veces superior a los datos oficiales"
+      },
+      {
+        "dicho": "1,030,258 población beneficiada de Comedores Comunitarios",
+        "fuente": "Sección de Mapa",
+        "fecha": "",
+        "hecho": "El padrón de beneficiarios indica que 35,978 personas reciben el apoyo de Comedores Comunitarios. La cifra reportada es 28.6 veces superior a los datos oficiales"
+      },
+      {
+        "dicho": "1 millón 216 mil 114 personas beneficiadas con el Programa de Empleo Temporal",
+        "fuente": "Informativo No.8, Cruzada Nacional contra el Hambre",
+        "fecha": "15 de Diciembre 2015",
+        "hecho": "El padrón de beneficiarios indica que sólo 62 mil 416 personas reciben el Programa de Empleo Temporal; es decir, se reporta beneficiar 19 veces más personas de las que sus propios datos indican"
+      },
+      {
+        "dicho": "2,743,070 nuevos beneficiarios en los municipios Cruzada del Programa Liconsa",
+        "fuente": "Sección de Mapa",
+        "fecha": "",
+        "hecho": "El padrón de beneficiarios indica que sólo 573,483 reciben el programa Liconsa. La cifra reportada es 4.78 veces mayor a los datos oficiales"
+      },
+      {
+        "dicho": "1,606,560 nuevas afiliaciones en municipios Cruzada con el programa Pensiones para Adultos Mayores",
+        "fuente": "Sección de Mapa",
+        "fecha": "",
+        "hecho": "El padrón de beneficiarios indica que 142,723 personas reciben el programa Pensiones para Adultos Mayores. La cifra reportada es 11.3 veces mayor a los datos oficiales"
+      }
+    ]
+  }
+]

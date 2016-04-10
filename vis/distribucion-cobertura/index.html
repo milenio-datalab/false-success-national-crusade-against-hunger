@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheets/vis.min.css">
+</head>
+
+<body>
+
+<div id="viz">
+    <div id="viz-header">
+        <h6>Cobertura de la Cruzada Nacional Contra el Hambre</h6>
+    </div>
+    <div id="viz-intro">
+        <p>Si solo se consideran los programas específicos para combatir el hambre, la cobertura de la CNCH disminuye en
+            la mayoría de los municipios, y en algunos cambia drásticamente. Como por
+            ejemplo en Santa Magdalena Jicotlán (Oaxaca), donde la cobertura baja del 75% a 0%.</p>
+    </div>
+    <div id="viz-content">
+        <div id="vis"></div>
+    </div>
+    <div id="viz-info">
+        <div>
+            <table>
+                <tr>
+                    <td class="entidad-municipio">Entidad: <span class="info-entidad">&nbsp;</span></td>
+                    <td class="entidad-municipio">Municipio: <span class="info-municipio">&nbsp;</span></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="border: 0">
+                        <table class="cobertura" border="0">
+                            <tr>
+                                <td>Cobertura todos los programas</td>
+                                <td class="porcentaje tp"><span class="info-cobertura-tp">0%</span></td>
+                                <td>Cobertura con programas específicos para combate del hambre (*)</td>
+                                <td class="porcentaje ph"><span class="info-cobertura-ph">0%</span></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="viz-footnote">
+        (*) Prospera, Programa de Apoyo Alimentario (PAL), Programa de Comedores Comunitarios y Pensiones para Adultos
+        Mayores
+    </div>
+    <div id="viz-footer">
+        <h6>Fuente: Padrón de beneficiarios de la Cruzada Nacional contra el Hambre; Indicadores de pobreza extrema y carencia por acceso a la alimentación por municipio 2010, Coneval</h6>
+    </div>
+</div>
+
+<script src="scripts/scripts.js"></script>
+</body>

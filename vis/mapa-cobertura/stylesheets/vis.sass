@@ -1,0 +1,111 @@
+@import "mdl"
+
+body
+  font: 12px sans-serif
+
+div.tooltip
+  font-family: "Titillium Web", sans-serif
+  position: absolute
+  background-color: white
+  border: 1px solid black
+  color: black
+  font-weight: 400
+  padding: 4px 8px
+  display: none
+
+div#viz-info
+
+  font-family: "Titillium Web", sans-serif
+  padding: 0 10px
+  margin-bottom: 5px
+
+  table
+    font-weight: 700
+    font-size: 1.2em
+    width: 100%
+
+    td
+      border: 1px solid $color_gris
+      padding: 5px
+      background-color: #fff
+
+    td.entidad-municipio
+      width: 75%
+      padding-left: 10px
+
+    td.cobertura
+      background-color: #fff
+      text-align: center
+
+      span
+        font-size: 1.4em
+        font-weight: 900
+        letter-spacing: 1px
+
+    span
+      font-weight: 400
+
+g#g-map-estados
+
+  path
+    stroke-width: 0.5px
+    stroke: #333
+    fill: none
+    pointer-events: none
+
+g#g-map-municipios
+
+  path
+    stroke-width: 0.1px
+    stroke: #000
+    fill: $color_gris
+    cursor: pointer
+
+    &:hover
+      stroke: #000
+      stroke-width: 0.5px
+      fill-opacity: 0.2
+      //fill: #fff !important
+
+g#g-ui
+
+  rect
+    stroke: #fff
+    cursor: pointer
+
+    &.button
+      filter: drop-shadow(0px 1px 1px #555)
+      -webkit-svg-shadow: 1px 1px 2px #555
+
+      &.cobertura-0-20
+        fill: #d7191c
+
+      &.cobertura-20-40
+        fill: #fdae61
+
+      &.cobertura-40-60
+        fill: #FDC131
+
+      &.cobertura-60-80
+        fill: #a6d96a
+
+      &.cobertura-80-100
+        fill: #1a9641
+
+      &.cobertura-mas-100
+        fill: #1998CD
+
+      &.off
+        fill: $color_gris
+
+  text.ui-button-text
+    text-anchor: middle
+    font-family: "Titillium Web", sans-serif
+    fill: #fff
+    font-weight: 400
+    pointer-events: none
+
+    &.off
+      fill: #333
+
+

@@ -1,0 +1,122 @@
+@import "mdl"
+
+body
+  font: 12px sans-serif
+
+div.tooltip
+  font-family: "Titillium Web", sans-serif
+  position: absolute
+  background-color: white
+  border: 1px solid black
+  color: black
+  font-weight: 400
+  padding: 4px 8px
+  display: none
+
+div#viz-info
+
+  font-family: "Titillium Web", sans-serif
+  padding: 10px
+  margin-bottom: 0
+  margin-top: 0
+
+  table
+    border: 1px solid $color_gris
+    border: 0
+    font-weight: 700
+    font-size: 1.2em
+    width: 100%
+    border-collapse: collapse
+
+    td
+      border: 0.5px solid $color_gris
+      padding: 5px
+      vertical-align: top
+      text-align: center
+
+    td.titulo
+      font-weight: 700
+      font-size: 0.8em
+      text-align: center
+      background-color: $color_gris_claro
+
+    td.entidad-municipio
+      padding: 5px
+      width: 50%
+      padding-left: 10px
+      font-size: 0.8em
+
+      span
+        font-weight: 400
+
+
+    td
+      background-color: #fff
+      text-align: center
+      padding: 0
+
+      table.cobertura
+        border-collapse: collapse
+        border: 0px
+        tr
+          td
+            border-left: 0.5px solid $color_gris
+            padding: 5px 5px 5px 10px
+            width: 30%
+            font-size: 0.7em !important
+            line-height: 1.1em
+            font-weight: 400
+            vertical-align: middle
+            text-align: left
+
+            &.porcentaje
+              width: 20%
+              padding: 0
+              text-align: center
+
+
+g#g-levels
+  pointer-events: none
+
+g#g-ui
+
+  rect
+    cursor: pointer
+    fill: #333
+
+    &:hover, &.selected
+      fill: $color_rojo_milenio
+
+  text.button-text
+    font-family: "Titillium Web", sans-serif
+    fill: #fff
+    text-anchor: middle
+    pointer-events: none
+
+rect.municipio
+
+  &:hover
+    stroke: #333
+    stroke-width: 2px
+    cursor: pointer
+
+  &.disabled
+    opacity: 0.2
+    stroke-width: 0
+  // pointer-events: none
+
+  &.selected
+    stroke: #333
+    stroke-width: 0.5px
+
+  &.selected-extra
+    stroke: #333
+    stroke-width: 2px
+
+text.scale-legend
+  font-family: "Titillium Web", sans-serif
+
+text.level-text
+  fill: #333
+  font-family: "Titillium Web", sans-serif
+  font-size: 10px
