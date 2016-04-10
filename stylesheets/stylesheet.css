@@ -1,10 +1,58 @@
 * {
   box-sizing: border-box; }
 
+
+/*
+----------------------------------------------------------------------
+Fonts
+----------------------------------------------------------------------
+*/
+
+/*
+Tiempos Text
+*/
+@font-face {
+  font-family: 'Tiempos Text';
+  src:url(../fonts/tiempos-text/TiemposTextWeb-Regular.eot);
+  src:url(../fonts/tiempos-text/TiemposTextWeb-Regular.eot?#iefix) format("embedded-opentype"),
+  url(../fonts/tiempos-text/TiemposTextWeb-Regular.woff2) format("woff2"),
+  url(../fonts/tiempos-text/TiemposTextWeb-Regular.woff) format("woff"),
+  url(../fonts/tiempos-text/TiemposTextWeb-Regular.ttf) format("truetype"),
+  url(../fonts/tiempos-text/TiemposTextWeb-Regular.svg#font) format("svg");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Tiempos Text';
+  src:url(../fonts/tiempos-text-semibold/TiemposTextWeb-Semibold.eot);
+  src:url(../fonts/tiempos-text-semibold/TiemposTextWeb-Semibold.eot?#iefix) format("embedded-opentype"),
+  url(../fonts/tiempos-text-semibold/TiemposTextWeb-Semibold.woff2) format("woff2"),
+  url(../fonts/tiempos-text-semibold/TiemposTextWeb-Semibold.woff) format("woff"),
+  url(../fonts/tiempos-text-semibold/TiemposTextWeb-Semibold.ttf) format("truetype"),
+  url(../fonts/tiempos-text-semibold/TiemposTextWeb-Semibold.svg#font) format("svg");
+  font-weight: 600;
+}
+
+/*
+Tiempos Headline
+*/
+@font-face {
+  font-family: 'Tiempos Headline';
+  src:url(../fonts/tiempos-headline-semibold/TiemposHeadWeb-Semibold.eot);
+  src:url(../fonts/tiempos-headline-semibold/TiemposHeadWeb-Semibold.eot?#iefix) format("embedded-opentype"),
+  url(../fonts/tiempos-headline-semibold/TiemposHeadWeb-Semibold.woff2) format("woff2"),
+  url(../fonts/tiempos-headline-semibold/TiemposHeadWeb-Semibold.woff) format("woff"),
+  url(../fonts/tiempos-headline-semibold/TiemposHeadWeb-Semibold.ttf) format("truetype"),
+  url(../fonts/tiempos-headline-semibold/TiemposHeadWeb-Semibold.svg#font) format("svg");
+  font-weight: 600;
+}
+
+
+
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Tiempos Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #606c71; }
@@ -56,12 +104,16 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  background-color: #D62927;
+  background-image: linear-gradient(120deg, #D62927, #702221); }
+
+.page-header h1 {
+    font-family: "Tiempos Headline", serif;
+}
 
 @media screen and (min-width: 64em) {
   .page-header {
-    padding: 5rem 6rem; } }
+    padding: 4rem 10rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
@@ -112,7 +164,7 @@ a {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #159957; }
+  color: #D62927; }
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
